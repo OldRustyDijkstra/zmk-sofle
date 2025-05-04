@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Gear1:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - _
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -58,14 +58,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - layer1
+  - Gear2
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - layer1
+  - Gear2
   - $$mdi:keyboard-space$$
   - Gear3
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Gear2:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -145,11 +145,11 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
