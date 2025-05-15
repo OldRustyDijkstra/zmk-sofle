@@ -63,7 +63,7 @@ layers:
   - Gear2
   - $$mdi:keyboard-space$$
   - Gear3
-  - Sft+Ctl+M
+  - {t: 'Ctl+Alt+$$mdi:backspace-reverse-outline$$', h: Gear4}
   - $$mdi:backspace-reverse-outline$$
   Gear2:
   - $$mdi:keyboard-esc$$
@@ -258,5 +258,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: KP 0, type: held}
   - {t: ., s: '>'}
