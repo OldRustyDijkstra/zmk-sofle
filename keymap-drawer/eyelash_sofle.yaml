@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Gear2
   - $$mdi:keyboard-space$$
-  - Gear3
-  - {t: Gear4, h: toggle}
+  - Gear4
+  - {t: Gear3, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   Gear2:
   - $$mdi:keyboard-esc$$
@@ -192,7 +192,7 @@ layers:
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gear4, h: toggle, type: held alternate}
+  - {t: Gear4, h: toggle}
   - {t: Gear1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   Gear4:
@@ -257,6 +257,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gear1, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - KP 0
   - {t: ., s: '>'}
