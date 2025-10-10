@@ -63,7 +63,7 @@ layers:
   - Gear2
   - $$mdi:keyboard-space$$
   - Gear3
-  - {t: 'Ctl+Alt+$$mdi:backspace-reverse-outline$$', h: Gear4}
+  - {t: Gear4, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   Gear2:
   - $$mdi:keyboard-esc$$
@@ -89,8 +89,8 @@ layers:
   - PG UP
   - END
   - $$mdi:arrow-up-bold$$
-  - HOME
-  - {t: '-', s: _}
+  - F11
+  - F12
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
@@ -153,9 +153,9 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
-  - _
   - +
   - {type: held}
   - OUT USB
@@ -192,10 +192,11 @@ layers:
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gear4, h: toggle, type: held alternate}
+  - {t: Gear1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   Gear4:
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -204,11 +205,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
   - '*'
-  - {t: '-', s: _}
-  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -220,7 +220,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,6 +246,8 @@ layers:
   - KP 1
   - KP 2
   - KP 3
+  - {t: /, s: '?'}
+  - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -254,9 +256,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gear1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: KP 0, type: held}
+  - KP 0
   - {t: ., s: '>'}
