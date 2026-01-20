@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - Gear3
+  - layer2
   - A
   - S
   - D
@@ -63,7 +63,7 @@ layers:
   - Gear2
   - $$mdi:keyboard-space$$
   - Gear4
-  - {t: Gear3, h: toggle}
+  - {t: layer2, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   Gear2:
   - $$mdi:keyboard-esc$$
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Gear3:
+  layer2:
   - $$mdi:keyboard-esc$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -260,7 +260,7 @@ layers:
   - {type: held}
   - KP 0
   - {t: ., s: '>'}
-  GEAR5:
+  layer3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
