@@ -104,7 +104,7 @@
 &trans      &trans         &trans         &trans         &trans         &trans           &kp K_PLAY_PAUSE  &trans      &trans  &tog 3      &to 0      &trans
             >;
 
-            display-name = "layer2";
+            display-name = "Gear3";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -118,16 +118,6 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
